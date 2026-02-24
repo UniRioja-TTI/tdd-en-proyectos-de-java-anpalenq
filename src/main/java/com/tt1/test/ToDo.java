@@ -22,45 +22,39 @@ public class ToDo implements Serializable{
     	this.completado=completado;
     }
 
-    // Getters y Setters
     public String getNombre() {
-        //return nombre;
-    	throw new UnsupportedOperationException("Clase aún no implementada.");
+        return nombre;
     }
 
     public void setNombre(String nombre) {
-        //this.nombre = nombre;
-    	throw new UnsupportedOperationException("Clase aún no implementada.");
+        this.nombre = nombre;
     }
 
+    // Getter y Setter para descripcion
     public String getDescripcion() {
-        //return descripcion;
-    	throw new UnsupportedOperationException("Clase aún no implementada.");
+        return descripcion;
     }
 
     public void setDescripcion(String descripcion) {
-        //this.descripcion = descripcion;
-    	throw new UnsupportedOperationException("Clase aún no implementada.");
+        this.descripcion = descripcion;
     }
 
+    // Getter y Setter para fechaLimite
     public Date getFechaLimite() {
-        //return fechaLimite;
-    	throw new UnsupportedOperationException("Clase aún no implementada.");
+        return fechaLimite;
     }
 
     public void setFechaLimite(Date fechaLimite) {
-        //this.fechaLimite = fechaLimite;
-    	throw new UnsupportedOperationException("Clase aún no implementada.");
+        this.fechaLimite = fechaLimite;
     }
 
+    // Getter y Setter para completado
     public boolean isCompletado() {
-        //return completado;
-    	throw new UnsupportedOperationException("Clase aún no implementada.");
+        return completado;
     }
 
     public void setCompletado(boolean completado) {
-        //this.completado = completado;
-    	throw new UnsupportedOperationException("Clase aún no implementada.");
+        this.completado = completado;
     }
 
 }
